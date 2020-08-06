@@ -2,6 +2,10 @@
     background-color: rgb(186, 211, 236);
     max-width: 100%;
   }
+img {
+    border-radius: 8px;
+    max-width: 300px;
+  }
   .dex {
     display: flex;
     flex-direction: row;
@@ -9,10 +13,7 @@
     justify-content: space-evenly;
     align-content: center;
   }
-  img {
-    border-radius: 8px;
-    max-width: 300px;
-  }
+  
   h1 {
     font-family: "Archivo Black";
     font-size: 60px;
