@@ -1,0 +1,68 @@
+.sam {
+    background: #bbb;
+  }
+  
+  #img1 {
+    border-radius: 8px;
+  }
+  
+  .sam {
+    text-align: center;
+    background-color: black;
+    height: 10vh;
+    border-radius: 8px;
+    justify-content: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+  
+  .container1 {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .box {
+    width: 200px;
+    height: 150px;
+    background: #948e99; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #2e1437,
+      #948e99
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #2e1437,
+      #948e99
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-radius: 8px;
+    margin: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .box {
+      width: 40%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .box {
+      width: 90%;
+    }
+  }
+  
