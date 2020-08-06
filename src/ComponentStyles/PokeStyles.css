@@ -32,7 +32,7 @@
   }
   .box {
     width: 200px;
-    height: 150px;
+    height: 200px;
     background: #948e99; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
